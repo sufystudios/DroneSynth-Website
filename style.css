@@ -138,18 +138,21 @@ section:has(.wide-screenshot) {
     border: none;
     padding: 0;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
 }
 
 figure.video {
     margin: 0;
+    flex: 1 1 200px;
+    max-width: 260px;
 }
 
 .video-frame {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 9 / 16;
     border-radius: 16px;
     overflow: hidden;
     border: 1px solid var(--border);
@@ -162,16 +165,6 @@ figure.video {
     width: 100%;
     height: 100%;
     border: 0;
-}
-
-.video-disclaimer {
-    background: rgba(255, 196, 0, 0.1);
-    border: 1px solid rgba(255, 196, 0, 0.35);
-    color: #ffdf85;
-    border-radius: 10px;
-    padding: 10px 14px;
-    font-size: 0.9rem;
-    margin: 0 0 10px;
 }
 
 figcaption {
