@@ -164,6 +164,16 @@ figure.video {
     border: 0;
 }
 
+.video-disclaimer {
+    background: rgba(255, 196, 0, 0.1);
+    border: 1px solid rgba(255, 196, 0, 0.35);
+    color: #ffdf85;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    margin: 0 0 10px;
+}
+
 figcaption {
     color: var(--muted);
     font-size: 0.9rem;
