@@ -167,6 +167,19 @@ figure.video {
     border: 0;
 }
 
+/* Widescreen (16:9) videos: the promotional film and tutorials. */
+figure.video-wide {
+    margin: 0 0 18px;
+}
+
+figure.video-wide:last-child {
+    margin-bottom: 0;
+}
+
+figure.video-wide .video-frame {
+    aspect-ratio: 16 / 9;
+}
+
 figcaption {
     color: var(--muted);
     font-size: 0.9rem;
@@ -194,6 +207,11 @@ figure.feature-shot img {
     object-fit: contain;
     border-radius: 18px;
     border: 1px solid var(--border);
+}
+
+h2.page-heading {
+    margin: 32px 0 16px;
+    text-align: center;
 }
 
 footer {
