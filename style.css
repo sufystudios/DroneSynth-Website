@@ -43,6 +43,49 @@ header.hero .badge {
     margin-bottom: 18px;
 }
 
+header.hero .app-icon {
+    width: 112px;
+    height: 112px;
+    border-radius: 25px;
+    box-shadow: 0 10px 34px rgba(0, 0, 0, 0.55);
+    margin-bottom: 18px;
+}
+
+.store-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin: 24px 0 12px;
+}
+
+.store-badges a:hover {
+    opacity: 0.85;
+}
+
+/* Apple's badge is artwork edge to edge; Google's has transparent margins built in,
+   so it's drawn taller and pulled in to look the same size. */
+.store-badges .badge-apple {
+    display: block;
+    height: 54px;
+}
+
+.store-badges .badge-google {
+    display: block;
+    height: 80px;
+    margin: -13px -10px;
+}
+
+.platforms {
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+section.get-it {
+    text-align: center;
+}
+
 h1 {
     font-size: 2.1rem;
     margin: 0 0 12px;
