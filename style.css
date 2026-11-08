@@ -273,3 +273,91 @@ footer {
 p {
     margin: 0 0 14px;
 }
+
+/* Quick links under the header. */
+nav.quicklinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 18px;
+}
+
+nav.quicklinks a {
+    padding: 6px 14px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 0.9rem;
+}
+
+nav.quicklinks a:hover {
+    text-decoration: none;
+    background: var(--panel);
+}
+
+section[id] {
+    scroll-margin-top: 16px;
+}
+
+code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.85em;
+    background: rgba(255, 255, 255, 0.07);
+    padding: 1px 6px;
+    border-radius: 4px;
+    word-break: break-all;
+}
+
+ol li, ul li {
+    margin-bottom: 8px;
+}
+
+section ol + p, section ul + p, section ol + h3, section ul + h3 {
+    margin-top: 14px;
+}
+
+.inline-shot {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin: 4px 0 16px;
+}
+
+.download-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.muted {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.note {
+    margin-top: 14px;
+    padding: 12px 14px;
+    border-left: 3px solid var(--accent);
+    background: rgba(52, 208, 88, 0.07);
+    border-radius: 0 8px 8px 0;
+}
+
+details {
+    border-top: 1px solid var(--border);
+    padding: 10px 0;
+}
+
+details:last-of-type {
+    border-bottom: 1px solid var(--border);
+}
+
+summary {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+details p {
+    margin: 8px 0 0;
+    color: var(--muted);
+}
