@@ -92,12 +92,20 @@
     <section id="windows">
         <h2>DroneSynth for Windows (preview)</h2>
         <p>An early preview of DroneSynth as a desktop plugin for 64-bit Windows: a VST3, a CLAP and a standalone app, built on the same engine as the apps. It has no custom interface yet, so your DAW shows its own editor for the knobs.</p>
-        <a class="button" href="https://github.com/sufystudios/DroneSynth-Website/releases/download/windows-plugin-0.1/DroneSynth-Windows.zip">Download for Windows (.zip)</a>
+        <a class="button" href="https://github.com/sufystudios/DroneSynth-Website/releases/download/windows-plugin-0.2/DroneSynth-Windows.zip">Download for Windows (.zip)</a>
         <ul style="margin-top: 16px;">
             <li>Copy <strong>DroneSynth.vst3</strong> to <code>C:\Program Files\Common Files\VST3\</code></li>
             <li>Copy <strong>DroneSynth.clap</strong> to <code>C:\Program Files\Common Files\CLAP\</code></li>
             <li>Or run <strong>DroneSynth.exe</strong> on its own. It isn't code-signed yet, so Windows may warn you first (More info › Run anyway).</li>
         </ul>
+        <h3>Play it from your phone</h3>
+        <p>With <a href="#motion">MOTION</a> in the Android, iPhone or iPad app, every knob and key you play on the phone plays the plugin on your PC over Wi-Fi, and your DAW can record it.</p>
+        <ol>
+            <li>Install the free <a href="https://www.tobias-erichsen.de/software/rtpmidi.html">rtpMIDI</a> driver. Add a session under My Sessions, tick Enabled, and let anyone connect.</li>
+            <li>In your DAW, pick that session as the MIDI input of the DroneSynth track.</li>
+            <li>On the phone, on the same Wi-Fi: <strong>MOTION</strong> › <strong>Controller</strong>, then tap your PC under <strong>NEARBY</strong>.</li>
+        </ol>
+        <p>The plugin's stereo filters switch on from the phone app, once you've bought Stereo Filters there.</p>
     </section>
 
     <section>
@@ -117,7 +125,7 @@
 
     <section id="motion">
         <h2>MOTION &amp; wireless controller</h2>
-        <p>MOTION records the way you play — knob moves and notes — as a loop, and turns your iPhone or iPad into a wireless controller for the DroneSynth plugin in Logic Pro, GarageBand or any AUv3 host. It's a one-time in-app purchase, unlocked from the MOTION tab. The plugin itself follows a controller for free.</p>
+        <p>MOTION records the way you play — knob moves and notes — as a loop, and turns your iPhone, iPad or Android phone into a wireless controller for the DroneSynth plugin: in Logic Pro, GarageBand or any AUv3 host, and in any VST3 or CLAP host on Windows (see <a href="#windows">DroneSynth for Windows</a>). It's a one-time in-app purchase, unlocked from the MOTION tab. The plugin itself follows a controller for free.</p>
 
         <figure class="feature-shot">
             <img src="images/screenshot-motion.jpg" alt="DroneSynth's MOTION tab playing a recorded motion, with its cutoff and resonance lanes and a Mac connected as a controller" loading="lazy">
