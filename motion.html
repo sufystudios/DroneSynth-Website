@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DroneSynth MOTION — record knob moves and play wirelessly</title>
+<meta name="description" content="Record your knob moves and notes as a loop, play the DroneSynth plugin on a Mac, iPad or PC from your phone, and play an Android phone from an iPhone.">
+<link rel="canonical" href="https://sufystudios.github.io/DroneSynth-Website/motion.html">
+
+<!-- How the page looks when it's shared: Facebook, Instagram, WhatsApp, Messages, X, Threads… -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DroneSynth">
+<meta property="og:title" content="DroneSynth MOTION — record knob moves and play wirelessly">
+<meta property="og:description" content="Record your knob moves and notes as a loop, play the DroneSynth plugin on a Mac, iPad or PC from your phone, and play an Android phone from an iPhone.">
+<meta property="og:url" content="https://sufystudios.github.io/DroneSynth-Website/motion.html">
+<meta property="og:image" content="https://sufystudios.github.io/DroneSynth-Website/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="DroneSynth's icon beside three iPhone screens of the synth">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DroneSynth MOTION — record knob moves and play wirelessly">
+<meta name="twitter:description" content="Record your knob moves and notes as a loop, play the DroneSynth plugin on a Mac, iPad or PC from your phone, and play an Android phone from an iPhone.">
+<meta name="twitter:image" content="https://sufystudios.github.io/DroneSynth-Website/images/og-image.jpg">
+<meta name="apple-itunes-app" content="app-id=6804345659">
+<meta name="theme-color" content="#0a0d0a">
+
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="site-nav" aria-label="DroneSynth">
+    <div class="site-nav-inner">
+        <a class="brand" href="index.html"><img src="images/icon-512.png" alt="" width="28" height="28">DroneSynth</a>
+        <div class="site-links">
+        <a href="index.html">Home</a>
+        <a href="windows.html">Windows</a>
+        <a href="motion.html" aria-current="page">MOTION</a>
+        <a href="videos.html">Videos</a>
+        <a href="help.html">Help</a>
+        </div>
+    </div>
+</nav>
+<main>
+    <header class="page-header">
+        <h1>MOTION</h1>
+        <p class="tagline">Record how you play, and play one device from another.</p>
+    </header>
+
+    <section>
+
+        <p>MOTION records the way you play — knob moves and notes — as a loop, and turns your iPhone, iPad or Android phone into a wireless controller for the DroneSynth plugin: in Logic Pro, GarageBand or any AUv3 host on a Mac or iPad, and in any VST3 or CLAP host on Windows. It's a one-time purchase in the app, unlocked from the MOTION tab. The plugin follows a controller for free.</p>
+
+        <nav class="toc" aria-label="On this page">
+            <a href="#record">Record a motion</a>
+            <a href="#mac">Control a Mac or iPad</a>
+            <a href="#windows">Control a Windows PC</a>
+            <a href="#android">Play an Android phone</a>
+            <a href="#tips">Tips</a>
+        </nav>
+
+        <figure class="feature-shot">
+            <img src="images/screenshot-motion.jpg" alt="DroneSynth's MOTION tab playing a recorded motion, with its cutoff and resonance lanes and a Mac connected as a controller" loading="lazy">
+            <figcaption>The MOTION tab: a recorded motion playing, and a Mac connected.</figcaption>
+        </figure>
+    </section>
+
+    <section id="record">
+        <h2>Record a motion</h2>
+        <ol>
+            <li>Open the <strong>MOTION</strong> tab — the last tab on the right-hand side — and choose <strong>Record</strong>.</li>
+            <li>Choose the <strong>CLOCK</strong>: <strong>BARS</strong> loops in time with the tempo (pick 1, 2, 4, 8 or 16 bars), <strong>SECS</strong> loops for as long as you record.</li>
+            <li>Tap <strong>REC</strong>, then turn knobs and play notes. For a drone, turn <strong>Drone</strong> on and hold a note first — it's held right through the loop.</li>
+            <li>Tap <strong>REC</strong> again to finish (in BARS it stops by itself at the end of the loop). It starts playing straight away.</li>
+            <li>Each knob you moved gets its own lane: tap its light to mute it. Grab a knob while it plays to take over; it rejoins the motion when the loop comes round.</li>
+            <li>Save or update your preset to keep the motion with it — each preset has its own. Stop the motion before saving, so the preset keeps your knobs where you set them.</li>
+        </ol>
+    </section>
+
+    <section id="mac">
+        <h2>Control the plugin on a Mac or iPad</h2>
+        <ol>
+            <li>Put your phone or iPad and your Mac (or the iPad running your host) on the same Wi-Fi.</li>
+            <li><strong>On a Mac, once:</strong> open <strong>Audio MIDI Setup</strong> › Window › Show MIDI Studio, click the globe (MIDI Network) icon, tick a session under My Sessions and set <strong>"Who may connect to me"</strong> to <strong>Anyone</strong>.</li>
+            <li>In DroneSynth on your phone or iPad, open <strong>MOTION</strong> › <strong>Controller</strong> and tap <strong>Controller</strong>. Allow access to your local network if asked.</li>
+            <li>Under <strong>NEARBY</strong>, tap your Mac or iPad. It shows <strong>CONNECTED</strong>, and reconnects by itself next time.</li>
+            <li>In your host, add the DroneSynth plugin to a track and select that track. Every knob, preset and note you play now plays the plugin — and a motion playing on your phone does too.</li>
+            <li>To record it as automation, set the track's automation to <strong>Latch</strong> or <strong>Touch</strong> (in Logic Pro) and press play.</li>
+        </ol>
+    </section>
+
+    <section id="windows">
+        <h2>Control the plugin on Windows</h2>
+        <p>Windows needs the free rtpMIDI driver to receive network MIDI: see <a href="windows.html#guide">step 3 of the Windows guide</a>.</p>
+    </section>
+
+    <section id="android">
+        <h2>Play an Android phone from an iPhone or Mac</h2>
+        <p>DroneSynth on an Android phone follows a Motion Controller for free: the iPhone, iPad or Mac does the playing, and the Android phone sounds. Needs DroneSynth 3.3.1 or later on Android.</p>
+        <ol>
+            <li>Put both on the same Wi-Fi and open DroneSynth on the Android phone.</li>
+            <li>On the iPhone, iPad or Mac, open <strong>MOTION</strong> › <strong>Controller</strong> and tap <strong>Controller</strong>.</li>
+            <li>Under <strong>NEARBY</strong>, tap the Android phone. Its MOTION tab shows <strong>FOLLOWING</strong>.</li>
+            <li>Turn knobs and play keys: the Android phone plays them, and its knobs move along.</li>
+        </ol>
+        <p>Or over a cable: plug the Android phone into the Mac (an iPhone needs a USB-C to USB-A adapter), set the phone's USB mode to <strong>MIDI</strong>, and tap it under <strong>PLUGGED IN</strong> on the controller.</p>
+    </section>
+
+    <section id="tips">
+        <h2>Tips</h2>
+        <ul>
+            <li>Turn off <strong>Sound on this device too</strong> in MOTION to hear only the plugin.</li>
+            <li>Open the plugin before you start the Controller, or tap <strong>Resend</strong> afterwards, so the plugin gets your whole sound.</li>
+            <li>The host plays the selected (or record-enabled) track. Record-enable several DroneSynth tracks to play them all at once.</li>
+            <li>Tapping <strong>Sending</strong> to stop the controller silences the plugin, even if it's droning.</li>
+            <li>Keep the DroneSynth Mac app closed while you play the plugin on the same Mac, or it will play along too.</li>
+            <li>No computer on the list? Check both are on the same Wi-Fi, and that the session there lets anyone connect.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p><a href="help.html#support">Support</a> · <a href="privacy-policy.html">Privacy Policy</a></p>
+        &copy; 2026 Sufy Studios. All rights reserved.
+    </footer>
+</main>
+</body>
+</html>
